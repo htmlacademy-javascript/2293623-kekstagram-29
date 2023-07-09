@@ -11,8 +11,8 @@
 
 // console.log(checkingStringLength('проверяемая строка', 20));
 
-let determinePalindrom = function (string) {
-  let newText = string.replaceAll('', '');
+const determinePalindrom = function (string) {
+  const newText = string.replaceAll('', '');
   let reverseString = '';
   for (let i = newText.length - 1; i >= 0; i = i - 1) {
     reverseString += newText.at(i);
